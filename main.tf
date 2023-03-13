@@ -14,3 +14,4 @@ resource "aws_cloudwatch_event_target" "lambda_target" {
   target_id = "target-lambda"
   arn       = "arn:aws:lambda:us-east-1:558940753150:function:function1"
 }
+
